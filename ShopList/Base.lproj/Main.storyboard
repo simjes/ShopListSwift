@@ -62,11 +62,11 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--First-->
+        <!--Groceries-->
         <scene sceneID="JX4-nP-NW5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C4y-Dx-NaO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Groceries" image="first" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mWg-dj-qbz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -81,11 +81,11 @@
             </objects>
             <point key="canvasLocation" x="750" y="-316"/>
         </scene>
-        <!--Second-->
+        <!--Stuff to remember-->
         <scene sceneID="xPb-QJ-CDS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e91-Hd-9po" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Stuff to remember" image="second" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="s6P-Q7-hNZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

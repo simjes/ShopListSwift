@@ -19,6 +19,7 @@
 		F45319B61D12EE9900ACE971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45319B41D12EE9900ACE971 /* LaunchScreen.storyboard */; };
 		F45319C11D12EE9900ACE971 /* ShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45319C01D12EE9900ACE971 /* ShopListTests.swift */; };
 		F45319CC1D12EE9900ACE971 /* ShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45319CB1D12EE9900ACE971 /* ShopListUITests.swift */; };
+		F45D6DEC1D5F902E00650B3F /* dbHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D6DEB1D5F902E00650B3F /* dbHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F45319C71D12EE9900ACE971 /* ShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45319CB1D12EE9900ACE971 /* ShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListUITests.swift; sourceTree = "<group>"; };
 		F45319CD1D12EE9900ACE971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45D6DEB1D5F902E00650B3F /* dbHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dbHandler.swift; path = ../dbHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		F45319A81D12EE9900ACE971 /* ShopList */ = {
 			isa = PBXGroup;
 			children = (
+				F45D6DEB1D5F902E00650B3F /* dbHandler.swift */,
 				F45319A91D12EE9900ACE971 /* AppDelegate.swift */,
 				F45319AB1D12EE9900ACE971 /* ShortTermController.swift */,
 				F45319AF1D12EE9900ACE971 /* Main.storyboard */,
@@ -434,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45D6DEC1D5F902E00650B3F /* dbHandler.swift in Sources */,
 				F45319AA1D12EE9900ACE971 /* AppDelegate.swift in Sources */,
 				F41990FA1D2EE0F00063D60E /* ShopItem.swift in Sources */,
 				F45319AC1D12EE9900ACE971 /* ShortTermController.swift in Sources */,
