@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Short Term Controller-->
+        <!--ShopList-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="ShortTermController" customModule="ShopList" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,15 +16,15 @@
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.69872281916398782" green="0.90570783967032531" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ssm-gJ-E5G"/>
+                    <navigationItem key="navigationItem" title="ShopList" id="Ssm-gJ-E5G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="-316"/>
         </scene>
-        <!--Long Term Controller-->
+        <!--ShopList-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="LongTermController" customModule="ShopList" customModuleProvider="target" sceneMemberID="viewController">
@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ews-Hs-D6h"/>
+                    <navigationItem key="navigationItem" title="ShopList" id="ews-Hs-D6h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,7 +66,7 @@
         <scene sceneID="JX4-nP-NW5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C4y-Dx-NaO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Groceries" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Groceries" image="Ingredients Filled" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mWg-dj-qbz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -81,11 +81,11 @@
             </objects>
             <point key="canvasLocation" x="750" y="-316"/>
         </scene>
-        <!--Stuff to remember-->
+        <!--Notes-->
         <scene sceneID="xPb-QJ-CDS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e91-Hd-9po" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Stuff to remember" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Notes" image="Note Filled" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="s6P-Q7-hNZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -102,7 +102,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="Ingredients Filled" width="30" height="30"/>
+        <image name="Note Filled" width="30" height="30"/>
     </resources>
+    <color key="tintColor" red="0.1215295793641904" green="0.70207801950804094" blue="0.95536858974358974" alpha="1" colorSpace="calibratedRGB"/>
 </document>
